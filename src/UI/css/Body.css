@@ -1,5 +1,10 @@
 .app-body{
-    display: flex;
+    display: inline-block;
+    margin: 3% 0 0 5%;
+}
+
+.app-body__button{
+    margin-left: 60%;
 }
 
 .app-body__title{
