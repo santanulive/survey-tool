@@ -1,0 +1,15 @@
+.app-header{
+    display: flex;
+    font-size: 150%;
+    height: 1.6em;
+    width: 100%;
+}
+
+.app-header__border{
+    background: -webkit-gradient(radial, 0 1%, 0, 75% 50%, 350, from(#6ECB63), to(#fff));
+    height: 1px;
+}
+
+.app-header__name{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}

@@ -1,0 +1,15 @@
+.button{
+    border: none;
+    font-size: 1em;
+    font-weight: bolder;
+    margin-left: 0.5em;
+    margin-top: 0.4em;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+.button:hover{
+    cursor: pointer;
+    /* transition-delay:0.3s; */
+    transition-duration: 1s;
+}
