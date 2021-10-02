@@ -10,6 +10,10 @@ p{
   padding-right: 1.5em;
 }
 
+*:focus {
+  outline: none;
+}
+
 .app-dropdown{  
   background-color: #F9FFEA;
   border: none;

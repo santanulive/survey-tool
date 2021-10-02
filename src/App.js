@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Header from "./UI/components/Header";
 import Body from "./UI/components/Body";
 import Question from "../src/Components/Question";
-import SubmitButton from "../src/UI/components/Button/SubmitButton";
+import QuestionList from "../src/Components/QuestionList";
 
 import "./App.css";
 
@@ -24,18 +24,19 @@ function App() {
     });
   };
 
+  const submitQuestionSet = () => {};
+
   return (
     <form>
       <div>
         <Header />
-        {questionList.map((question) => question)}
-        <Body onAddQuestion={addQuestion} />
+        <QuestionList questionList={questionList}/>
+        <Body
+          onAddQuestion={addQuestion}
+          questionList={questionList}
+          onClick={submitQuestionSet}
+        />
       </div>
-      {questionList.length > 0 && (
-        <div>
-          <SubmitButton buttonText={"Submit"} />
-        </div>
-      )}
     </form>
   );
 }
