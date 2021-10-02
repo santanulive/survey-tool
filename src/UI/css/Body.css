@@ -1,0 +1,7 @@
+.app-body{
+    display: flex;
+}
+
+.app-body__title{
+    padding-left: 0.5em;
+}

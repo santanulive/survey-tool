@@ -1,0 +1,12 @@
+.add-button{
+    background-color: #6ECB63;
+    border-radius: 50%;
+    color: #393E46;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+.add-button:hover{
+    background-color: #393E46;
+    color: #FFFFFF;
+}

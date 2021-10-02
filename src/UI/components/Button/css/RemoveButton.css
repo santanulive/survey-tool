@@ -1,0 +1,11 @@
+.remove-button{
+    background-color: #FF5C58;
+    border-radius: 50%;
+    color: #FFFFFF;
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.remove-button:hover{
+    background-color: #393E46;
+}
