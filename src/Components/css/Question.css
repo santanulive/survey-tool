@@ -1,5 +1,6 @@
 .app-question-container{
-    background-color: #F9FFEA;
-    margin: 1% auto 0;
+    background-color: #F9FFEA;    
+    box-shadow: 5px 5px 15px #393E46;
+    margin: 3% auto 0;
     width: 85%;
 }
